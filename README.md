@@ -1,2 +1,2 @@
 # Quadcopter
-Quadcopter made using arduino.
+Quadcopter made using arduino as Flight Controller.
