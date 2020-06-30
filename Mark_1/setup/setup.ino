@@ -826,21 +826,5 @@ ISR(PCINT0_vect){
 void intro(){
   Serial.println(F("==================================================="));
   delay(1500);
-  Serial.println(F(""));
-  Serial.println(F("Your"));
-  delay(500);
-  Serial.println(F("  Multicopter"));
-  delay(500);
-  Serial.println(F("    Flight"));
-  delay(500);
-  Serial.println(F("      Controller"));
-  delay(1000);
-  Serial.println(F(""));
-  Serial.println(F("YMFC-AL Setup Program"));
-  Serial.println(F(""));
-  Serial.println(F("==================================================="));
-  delay(1500);
-  Serial.println(F("For support and questions: www.brokking.net"));
-  Serial.println(F(""));
-  Serial.println(F("Have fun!"));
+  
 }
