@@ -1,4 +1,14 @@
 
+//The program will start in calibration mode.
+//Send the following characters / numbers via the serial monitor to change the mode
+//
+//r = print receiver signals.
+//a = print quadcopter angles.
+//1 = check rotation / vibrations for motor 1 (right front CCW).
+//2 = check rotation / vibrations for motor 2 (right rear CW).
+//3 = check rotation / vibrations for motor 3 (left rear CCW).
+//4 = check rotation / vibrations for motor 4 (left front CW).
+//5 = check vibrations for all motors together.
 #include <EEPROM.h>                                  //Include the EEPROM.h library so we can store information onto the EEPROM
 
 //Declaring global variables
