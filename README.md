@@ -4,4 +4,5 @@ As the name suggests, a quad drone is basically a flying vehicle with four elect
 ## Project Highlights
 Quadcopter made using arduino as Flight Controller.
 
-
+## Future 
+Running it on Raspberry Pi, and controlling using hand gestures.
